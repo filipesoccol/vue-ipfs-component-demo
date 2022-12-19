@@ -25,24 +25,24 @@
   <div class="card">
     <div><code>&lt;ipfs-avatar :size="80" :radius="80" src="..."></code></div>
     <div class="flex-container">
-      <ipfs-avatar :size="200" :radius="200" src="QmPbxeGcXhYQQNgsC6a36dDyYUcHgMLnGKnF8pVFmGsvqi"/>
-      <ipfs-avatar :size="100" :radius="100" src="QmPbxeGcXhYQQNgsC6a36dDyYUcHgMLnGKnF8pVFmGsvqi"/>
-      <ipfs-avatar :size="50" :radius="50" src="QmPbxeGcXhYQQNgsC6a36dDyYUcHgMLnGKnF8pVFmGsvqi"/>
+      <ipfs-avatar :size="200" :radius="20" src="https://cloudflare-ipfs.com/ipfs/QmZPXo7N2qDMWaCVezr6Mm7FEmxwDitoWkKC3AjELQqS7N"/>
+      <!-- <ipfs-avatar :size="100" :radius="10" src="QmdAkYaMqyycEJ2Rq67zh6Y5x6FW1nBkEBxctL3SvPpkjW"/> -->
+      <!-- <ipfs-avatar :size="50" :radius="50" src="https://cloudflare-ipfs.com/ipfs/QmdbFYPhyyoGF7oZ13f3p8dPG66dzrNyK9483wSaoPooyY"/> -->
     </div>
   </div>
   <div class="card">
     <div><code>&lt;ipfs-squared :width="30" :height="30" src="..."></code></div>
     <div class="flex-container">
       <ipfs-squared :width="200" :height="200"  src="https://ipfs.io/ipfs/bafybeibj6pazfaql66giyedx77mzfnnwkhov73vacgiqowpsxwrry4fnxq/1.png"/>
-      <ipfs-squared :width="100" :height="100"  src="https://ipfs.io/ipfs/bafybeibj6pazfaql66giyedx77mzfnnwkhov73vacgiqowpsxwrry4fnxq/1.png"/>
-      <ipfs-squared :width="50" :height="50"  src="https://ipfs.io/ipfs/bafybeibj6pazfaql66giyedx77mzfnnwkhov73vacgiqowpsxwrry4fnxq/1.png"/>
+      <!-- <ipfs-squared :width="100" :height="100"  src="https://ipfs.io/ipfs/bafybeibj6pazfaql66giyedx77mzfnnwkhov73vacgiqowpsxwrry4fnxq/1.png"/> -->
+      <!-- <ipfs-squared :width="50" :height="50"  src="ipfs://bafybeibj6pazfaql66giyedx77mzfnnwkhov73vacgiqowpsxwrry4fnxq/1.png"/> -->
     </div>
     <p>Here some examples loading images from IPFS using fastest gateways successfully connected to your machine.</p>
     <p>Each time you fill a source for the image, it will try to fetch from the 3 faster gateways connected.</p>
     <p>Once the first responds, it is selected automatically.</p>
   </div>
   <div class="card">
-    <div v-if="metadataContent.image != undefined" class="flex-container">
+    <div class="flex-container">
       <div>
           <p>
             You can also use the injected function 
