@@ -58,11 +58,11 @@
   </div>
   <div class="card">
     <p class="aligned-left">Sources for media supported includes:</p>
-    <p class="aligned-left"><b>Single CIDv0 or CIDv1</b>: QmPbxeGcXhYQ...LnGKnF8pVFmGsvqi</p>
-    <p class="aligned-left"><b>CIDv0 or CIDv1 with subpath</b>: bafybeibj6paz...hov73vacgiqowpsxwrry4fnxq/1.png</p>
-    <p class="aligned-left"><b>IPFS protocol path</b>: ipfs://QmTDxnzcvj2p3...An2yzCQnZZ9LmFjReuH9/</p>
-    <p class="aligned-left"><b>Gateway path (will be replaced by most suitable)</b>: https://ipfs.io/ipfs/bafybeibj6pazf....iqowpsxwrry4fnxq/1.png</p>
-    <p class="aligned-left"><b>CIDv1 subdomain and Gateway(will also be replaced)</b>: https://bafybeiaewpy...57pr5z3kyag62kfuc7a.ipfs.dweb.link/2.png</p>
+    <p class="aligned-left"><b>Single CIDv0 or CIDv1</b>: QmPbxe...FmGsvqi</p>
+    <p class="aligned-left"><b>CIDv0 or CIDv1 with subpath</b>: bafybe...wpsxwrry4fnxq/1.png</p>
+    <p class="aligned-left"><b>IPFS protocol path</b>: ipfs://QmTDxnz...Z9LmFjReuH9/</p>
+    <p class="aligned-left"><b>Gateway path (will be replaced by most suitable)</b>: https://ipfs.io/ipfs/bafybe....fnxq/1.png</p>
+    <p class="aligned-left"><b>CIDv1 subdomain and Gateway(will also be replaced)</b>: https://bafybei...fuca.ipfs.dweb.link/2.png</p>
     <p class="aligned-left">You can even pass normal URLs withou any reference to IPFS, they will not be changed and will fetch correct path.</p>
   </div>
   <p>

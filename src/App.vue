@@ -17,7 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <style scoped>
 .logo {
-  height: 6em;
+  height: 10em;
   will-change: filter;
 }
 .logo:hover {

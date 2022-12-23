@@ -1,7 +1,12 @@
-# Vue 3 + Vite
+<p align="center">
+  <a href="https://filipesoccol.github.io/vue-ipfs-components-demo/" title="Vue IPFS Components Demo">
+    <img src="https://bafybeih5ekofdyjj3go7h2bhbrsvfo2n3zwhmj53vrmpv4ilqtkksd6s4u.ipfs.w3s.link/logo_ipfs_vue.svg" alt="IPFS logo" width="244" />
+  </a>
+</p>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<h3 align="center">Vue IPFS Components Demo</h3>
 
-## Recommended IDE Setup
+Load any IPFS content from the fastest gateway available just passing a valid path.
+The component itself verify for you the fastest suitable gateways from the Public Gateways list provided by Protocol Labs.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+To understand how this demo works please navigate to [React IPFS Components Repository](https://github.com/filipesoccol/vue-ipfs-components). 
