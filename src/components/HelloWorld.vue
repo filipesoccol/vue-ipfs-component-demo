@@ -7,7 +7,7 @@
 
   onMounted(() => {
     setTimeout( async () => {
-      const json = await fetchJSON('ipfs://QmNNHx7rpodRYXhKPtP6czFtvzH3xz6hfrecPnKpoDijFk/1')
+      const json = await fetchJSON('ipfs://QmNNHx7rpodRYXhKPtP6czFtvzH3xz6hfrecPnKpoDijFk/20')
       console.log('METADATA', json)
       metadataContent.value = json;
       metadataImage.value = json.image;
@@ -26,14 +26,14 @@
     <div><code>&lt;ipfs-avatar :size="80" :radius="80" src="..."></code></div>
     <div class="flex-container">
       <ipfs-avatar :size="200" :radius="20" src="https://cloudflare-ipfs.com/ipfs/QmZPXo7N2qDMWaCVezr6Mm7FEmxwDitoWkKC3AjELQqS7N"/>
-      <!-- <ipfs-avatar :size="100" :radius="10" src="QmdAkYaMqyycEJ2Rq67zh6Y5x6FW1nBkEBxctL3SvPpkjW"/> -->
+      <!-- <ipfs-avatar :size="200" :radius="10" src="QmZhrMvPZG8Liu36VtEuCuXxAjXWJBusmRk9v8i4y5FDAh"/> -->
       <!-- <ipfs-avatar :size="50" :radius="50" src="https://cloudflare-ipfs.com/ipfs/QmdbFYPhyyoGF7oZ13f3p8dPG66dzrNyK9483wSaoPooyY"/> -->
     </div>
   </div>
   <div class="card">
     <div><code>&lt;ipfs-squared :width="30" :height="30" src="..."></code></div>
     <div class="flex-container">
-      <ipfs-squared :width="200" :height="200"  src="https://ipfs.io/ipfs/bafybeibj6pazfaql66giyedx77mzfnnwkhov73vacgiqowpsxwrry4fnxq/1.png"/>
+      <ipfs-squared :width="200" :height="200"  src="https://ipfs.io/ipfs/bafybeibj6pazfaql66giyedx77mzfnnwkhov73vacgiqowpsxwrry4fnxq/20.png"/>
       <!-- <ipfs-squared :width="100" :height="100"  src="https://ipfs.io/ipfs/bafybeibj6pazfaql66giyedx77mzfnnwkhov73vacgiqowpsxwrry4fnxq/1.png"/> -->
       <!-- <ipfs-squared :width="50" :height="50"  src="ipfs://bafybeibj6pazfaql66giyedx77mzfnnwkhov73vacgiqowpsxwrry4fnxq/1.png"/> -->
     </div>
